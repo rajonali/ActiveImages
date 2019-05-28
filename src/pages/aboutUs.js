@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 const AboutUs = () => {
     return (
         <Layout>
-        Hello from about us1!
+        Hello from about us!
         </Layout>
     )
 }
