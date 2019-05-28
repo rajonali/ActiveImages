@@ -6,7 +6,7 @@ import footerStyles from './footer.module.scss';
 const Footer = () => { 
     return(
 <footer className={footerStyles.footer}>
-This yo footer.
+Created by Tasnim Ali 🚀 © 2019
     </footer>
     ) }
 

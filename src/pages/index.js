@@ -8,6 +8,9 @@ import placeholder from '../images/placeholder.jpg';
 import placeholder2 from '../images/placeholder2.jpg';
 import placeholder3 from '../images/placeholder3.jpg';
 import placeholder4 from '../images/placeholder4.jpg';
+import placeholder5 from '../images/placeholder5.jpg';
+import placeholder6 from '../images/placeholder6.jpg';
+import placeholder7 from '../images/placeholder7.jpg';
 
 
 
@@ -43,11 +46,11 @@ Our creative team of storytellers believe in using a collaborative approach when
 
 </div>
 
-<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', marginTop:'50px', marginBottom:'0px', paddingTop: "0.5px"}}></div>
+<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', marginTop:'30px',  height:'1px'}}></div>
 
 
-<div style={{height:'500px'}} class="our-services-subsection">
-<center><h1 style={{padding:'30px'}}>Our Services</h1></center>
+<div style={{paddingBottom:'30px'}} class="our-services-subsection">
+<center><h1 style={{padding:'20px'}}>Our Services</h1></center>
 
 <div class="services-array" style={{display:'flex', width:'auto', maxHeight : "100%", flexDirection:'row', justifyContent:'space-between'}}>
 <img height={341} width={426} src={placeholder2} style={{}} />
@@ -56,9 +59,18 @@ Our creative team of storytellers believe in using a collaborative approach when
 </div>
 </div>
 
-<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', marginTop:'50px', marginBottom:'50px', height:'1px'}}></div>
+<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', marginTop:'30px',  height:'1px'}}></div>
 
+<div style={{paddingBottom:'30px'}} class="our-services-subsection">
+<center><h1 style={{padding:'20px'}}>Featured Photos</h1></center>
 
+<div class="services-array" style={{display:'flex', flexDirection:'row', justifyContent:'space-between'}}>
+<img src={placeholder5} style={{}} />
+<img src={placeholder6} style={{}} />
+<img src={placeholder7} style={{}} />
+
+</div>
+</div>
 
 </div>
 
