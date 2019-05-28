@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+    background-color: green;
+    max-width: 100%;
+    flex-direction:'column';
+    justify-content: center;
+    align-items :'center';
+
+}
+
+.content {
+    flex-grow: 1;
+}
