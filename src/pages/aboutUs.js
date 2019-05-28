@@ -1,7 +1,12 @@
-import React from "react"
+import React from "react";
+import Layout from '../components/layout';
 
-const AboutUs = () => { return(<div>Hello from about us!</div>) }
-
-
+const AboutUs = () => {
+    return (
+        <Layout>
+        Hello from about us1!
+        </Layout>
+    )
+}
 
 export default AboutUs;

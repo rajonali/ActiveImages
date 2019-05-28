@@ -1,6 +1,8 @@
-import React from "react"
+import React from "react";
+import Layout from '../components/layout';
 
-const Store = () => { return(<div>Hello from store!</div>) }
+const Store = () => { return(<Layout>
+    Hello from store!</Layout>) }
 
 
 

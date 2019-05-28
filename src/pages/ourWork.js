@@ -1,6 +1,12 @@
-import React from "react"
+import React from "react";
+import Layout from '../components/layout';
 
-const OurWork = () => { return(<div>Hello from our work!</div>) }
+
+const OurWork = () => { return(
+<Layout>
+Hello from our work!
+</Layout>
+) }
 
 
 

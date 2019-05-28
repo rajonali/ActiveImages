@@ -1,6 +1,9 @@
-import React from "react"
+import React from "react";
+import Layout from '../components/layout';
 
-const ContactUs = () => { return(<div>Hello from contact us!</div>) }
+
+const ContactUs = () => { return(<Layout>
+Hello from contact us!</Layout>) }
 
 
 
