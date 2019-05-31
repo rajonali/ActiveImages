@@ -19,15 +19,22 @@ const Header = () => {
     <div /* class="collapse navbar-collapse" */ style={{width:'100vw', display:"flex", flexDirection:'row', alignItems:"flex-end"}}>
     <ul class="navbar-nav" style={{marginLeft:'45vw', width:'30vw', fontSize:'19px', alignSelf:'flex-end', justifyContent:'space-between'}} >
     <Link to="/aboutUs/">
-      <li>
+      <li style={{fontFamily:'Karla'}}>
       About Us
       </li>
       </Link>
       <Link to="/ourWork/">
-      <li>Our Work</li>
+      <li style={{fontFamily:'Karla'}}>
+        Our Work</li>
       </Link>
-      <Link to="/store/"><li>Store</li></Link>
-      <Link to="/contactUs/"><li>Contact Us</li></Link>
+      <Link to="/store/">
+      <li style={{fontFamily:'Karla'}}>
+
+          Store</li></Link>
+      <Link to="/contactUs/">
+      <li style={{fontFamily:'Karla'}}>
+
+          Contact Us</li></Link>
     </ul>
   </div>
 

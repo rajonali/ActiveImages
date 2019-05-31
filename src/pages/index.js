@@ -17,6 +17,7 @@ import placeholder7 from '../images/placeholder7.jpg';
 
 const HomePage = () => { return(
 <Layout>
+
 <div style={{backgroundImage: `url(${placeholder})`,overflow: 'hidden', height:'500px', width:'100vw'}}> 
 
 <div class="video-preview-comp">
@@ -28,14 +29,14 @@ const HomePage = () => { return(
 
 
 
-<div class="subsections" style={{width:'95vw', paddingTop:'75px', paddingLeft:'50px'}}>
+<div class="subsections" style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center',width:'95vw', paddingTop:'75px', paddingLeft:'50px'}}>
 
-<div class="about-us-preview-comp" style={{ width:'90vw'}}>
-    <h4>We are a full service photography and video production company based in the Philadelphia suburbs.</h4>
+<div class="about-us-preview-comp" style={{ width:'90vw', paddingTop:'60px'}}>
+    <p style={{fontSize:'24px', fontFamily:'Karla', fontWeight:600, lineHeight:1.1, color:'rgba(13,15,9,0.9)'}}>We are a full service photography and video production company based in the Philadelphia suburbs.</p>
    
 <div class="about-us-preview-subtext" style={{width:'70vw'}}>   
    
-    <p style={{paddingTop:'20px'}}>Active Image Media has been providing the highest quality photography and video services throughout the Philadelphia region for over thirty years. We specialize in portrait photography and video production from start to finish.
+    <p style={{fontSize:'18px', paddingTop:'20px', fontFamily:'Karla', lineHeight:1.9, color:'rgba(13,15,9,0.8)'}}>Active Image Media has been providing the highest quality photography and video services throughout the Philadelphia region for over thirty years. We specialize in portrait photography and video production from start to finish.
 <br />
 <br />
 
@@ -46,33 +47,51 @@ Our creative team of storytellers believe in using a collaborative approach when
 
 </div>
 
-<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', marginTop:'30px',  height:'1px'}}></div>
+<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', width:'100%', height:'1px', marginTop:'60px'}}></div>
 
 
-<div style={{paddingBottom:'30px'}} class="our-services-subsection">
-<center><h1 style={{padding:'20px'}}>Our Services</h1></center>
+<div style={{paddingBottom:'30px', width:'1200px'}} class="our-services-subsection">
+<center><h1 style={{padding:'50px', fontFamily:'Karla', fontWeight:500, fontSize:'48px'}}>Our Services</h1></center>
 
 <div class="services-array" style={{display:'flex', width:'auto', maxHeight : "100%", flexDirection:'row', justifyContent:'space-between'}}>
-<img height={341} width={426} src={placeholder2} style={{}} />
-<img height={341} width={426} src={placeholder3} style={{}} />
-<img height={341} width={426} src={placeholder4} style={{}} />
+<img height={341} width={426} src={placeholder2} style={{padding:'20px'}} />
+<img height={341} width={426} src={placeholder3} style={{padding:'20px'}} />
+<img height={341} width={426} src={placeholder4} style={{padding:'20px'}} />
 </div>
 </div>
 
-<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', marginTop:'30px',  height:'1px'}}></div>
+<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', width:'100%', height:'1px', marginTop:'60px'}}></div>
 
 <div style={{paddingBottom:'30px'}} class="our-services-subsection">
-<center><h1 style={{padding:'20px'}}>Featured Photos</h1></center>
+<center><h1 style={{padding:'50px', fontFamily:'Karla', fontWeight:500, fontSize:'48px'}}>Featured Photos</h1></center>
 
 <div class="services-array" style={{display:'flex', flexDirection:'row', justifyContent:'space-between'}}>
-<img src={placeholder5} style={{}} />
-<img src={placeholder6} style={{}} />
-<img src={placeholder7} style={{}} />
+<img src={placeholder5} style={{padding:'20px'}}  />
+<img src={placeholder6} style={{padding:'20px'}} />
+<img src={placeholder7} style={{padding:'20px'}} />
 
 </div>
 </div>
 
+
+<div class="fw-divider-space" style={{backgroundColor:'rgba(0,0,0,0.2)', width:'100%', height:'1px', marginTop:'60px'}}></div>
+
+<div style={{paddingBottom:'30px'}} class="our-services-subsection">
+    
+<center><h1 style={{padding:'50px', fontFamily:'Karla', fontWeight:500, fontSize:'48px'}}>Featured Videos</h1></center>
+
+<div class="services-array" style={{display:'flex', flexDirection:'row', justifyContent:'space-between'}}>
+<iframe src="https://player.vimeo.com/video/338800475?title=0&byline=0&portrait=0" width="320" height="180" style={{padding:'10px'}} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/338800475?title=0&byline=0&portrait=0" width="320" height="180" style={{padding:'10px'}} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/338800475?title=0&byline=0&portrait=0" width="320" height="180" style={{padding:'10px'}} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/338800475?title=0&byline=0&portrait=0" width="320" height="180" style={{padding:'10px'}} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 </div>
+</div>
+
+
+</div>
+
 
 </Layout>) }
 
