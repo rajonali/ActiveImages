@@ -41,7 +41,7 @@ const HomePage = () => {
                         fontWeight: 'normal',
                         fontFamily: 'helvetica',
                         margin: '10px 0px 0px 150px'
-                    }}>▶️ Watch Showreel</h4>
+                    }}>▸ Watch Showreel</h4>
                 </div>
 
             </div>
