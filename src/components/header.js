@@ -15,7 +15,12 @@ const Header = () => {
    
     
     <nav className={headerStyles.nav} class="navbar navbar-expand-lg navbar-light" id="myNav">
-    <a class="navbar-brand" style={{marginLeft:'30px'}} ><img src={logo} width="90%" height="90%" alt="Logo" /></a>
+    <a class="navbar-brand" style={{marginLeft:'30px'}} >
+      <div style={{width:'250px', display:'flex', justifyContent:'center', alignItems:'center', height:'100px', backgroundColor:'black'}}>
+      <h3 style={{color:'white'}}>BRAND LOGO</h3>
+
+      </div>
+      </a>
     
     <div /* class="collapse navbar-collapse" */ style={{width:'100vw', display:"flex", flexDirection:'row', alignItems:"flex-end"}}>
     <ul class="navbar-nav" style={{marginLeft:'45vw', width:'30vw', fontSize:'19px', alignSelf:'flex-end', justifyContent:'space-between'}} >

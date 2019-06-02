@@ -34,7 +34,7 @@ const HomePage = () => {
                         fontSize: '50px',
                         fontFamily: 'helvetica',
                         margin: '150px 0px 0px 150px'
-                    }}>ACTIVE IMAGE MEDIA</h1>
+                    }}>COMPANY NAME</h1>
                     <h4
                         style={{
                         color: 'white',
@@ -62,7 +62,7 @@ const HomePage = () => {
                     class="about-us-preview-comp"
                     style={{
                     width: '90vw',
-                    paddingTop: '60px'
+                    paddingTop: '5px'
                 }}>
                     <p
                         style={{
@@ -71,9 +71,7 @@ const HomePage = () => {
                         fontWeight: 600,
                         lineHeight: 1.1,
                         color: 'rgba(13,15,9,0.9)'
-                    }}>We
-                        are a full service photography and video production company based in the
-                        Philadelphia suburbs.</p>
+                    }}>Header goes here</p>
 
                     <div
                         class="about-us-preview-subtext"
@@ -88,19 +86,11 @@ const HomePage = () => {
                             fontFamily: 'Karla',
                             lineHeight: 1.9,
                             color: 'rgba(13,15,9,0.8)'
-                        }}>Active
-                            Image Media has been providing the highest quality photography and video
-                            services throughout the Philadelphia region for over thirty years. We specialize
-                            in portrait photography and video production from start to finish.
+                        }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             <br/>
                             <br/>
 
-                            Our creative team of storytellers believe in using a collaborative approach when
-                            working with our clients to tell their story. We offer a wide spectrum of
-                            services, but always with a personal touch. Our long list of satisfied clients
-                            includes local businesses, schools, sports organizations, families and
-                            individuals.
-                        </p>
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat                        </p>
                     </div>
 
                 </div>
@@ -431,8 +421,7 @@ const HomePage = () => {
                                     <div class="row testimonials">
                                     <div class="col-sm-4">
                                             <blockquote>
-                                                <p class="clients-words">Mike, these are fantastic!!! Thank you so much for
-                                                    these beautiful photos – you captured the school and the students so well!
+                                                <p class="clients-words">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
 
                                                 </p>
                                                 </blockquote>
@@ -446,15 +435,14 @@ const HomePage = () => {
                                                     class="img-circle img-thumbnail"
                                                     src="https://lorempixel.com/400/400/people/5/"/>
                                                 <span class="clients-name text-primary" style={{marginLeft:10,                         alignItems:'center',
-                        justifyContent:'center'}}><h4>Jeff Braconnier</h4>President & Founder <br />Catholic Community Choir</span>
+                        justifyContent:'center'}}><h4>First Last</h4>President & Founder <br />Client company</span>
                                                 </div>
 
                                         </div>
 
                                         <div class="col-sm-4">
                                             <blockquote>
-                                                <p class="clients-words">Mike, these are fantastic!!! Thank you so much for
-                                                    these beautiful photos – you captured the school and the students so well!
+                                                <p class="clients-words">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
                                                 </p>
                                                 </blockquote>
@@ -468,14 +456,13 @@ const HomePage = () => {
                                                     class="img-circle img-thumbnail"
                                                     src="https://lorempixel.com/400/400/people/5/"/>
                                                 <span class="clients-name text-primary" style={{marginLeft:10,                         alignItems:'center',
-                        justifyContent:'center'}}><h4>Jeff Braconnier</h4>President & Founder <br />Catholic Community Choir</span>
+                        justifyContent:'center'}}><h4>First Last</h4>President & Founder <br />Client company</span>
                                                 </div>
 
                                         </div>
                                         <div class="col-sm-4">
                                             <blockquote>
-                                                <p class="clients-words">Mike, these are fantastic!!! Thank you so much for
-                                                    these beautiful photos – you captured the school and the students so well!
+                                                <p class="clients-words">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                                                 </p>
                                                 </blockquote>
@@ -489,7 +476,7 @@ const HomePage = () => {
                                                     class="img-circle img-thumbnail"
                                                     src="https://lorempixel.com/400/400/people/5/"/>
                                                 <span class="clients-name text-primary" style={{marginLeft:10,                         alignItems:'center',
-                        justifyContent:'center'}}><h4>Jeff Braconnier</h4>President & Founder <br />Catholic Community Choir</span>
+                        justifyContent:'center'}}><h4>First Last</h4>President & Founder <br />Client company</span>
                                                 </div>
 
                                         </div>                                    </div>

@@ -15,7 +15,7 @@ const Footer = () => {
                     <h1>About us</h1>
                     <div style={{display:'flex', marginTop:20, justifyContent:'space-between'}}>
                     <p>
-                    Active Image Media is a full service production company that specializes in portrait photography and video production. We offer a wide spectrum of services, but always with a personal touch. <br /><br />Got an idea for a project? Get in touch and let’s talk about it!
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     </div>
 				</div>
