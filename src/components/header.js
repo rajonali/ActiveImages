@@ -11,7 +11,8 @@ const Header = () => {
     
 
         <header className={headerStyles.header}>
-
+        <script src="https://kit.fontawesome.com/15d1006177.js"></script>
+   
     
     <nav className={headerStyles.nav} class="navbar navbar-expand-lg navbar-light" id="myNav">
     <a class="navbar-brand" style={{marginLeft:'30px'}} ><img src={logo} width="90%" height="90%" alt="Logo" /></a>
